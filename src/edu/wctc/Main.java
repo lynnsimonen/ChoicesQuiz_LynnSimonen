@@ -20,7 +20,7 @@ public class Main {
             String[][] Choices = {{"winter", "skiing", "movies", "Lake Michigan", "Hamburgers"},
             {"summer", "snorkeling", "boating", "Pacific Ocean", "seafood"}};
             //new numbers array to hold quiz answers
-            int numbers [] = new int[5];
+            int [] numbers = new int[5];
             //initialize counter for quiz answers' sum
             double sum = 0;
             //initialize acceptable answer boolean
@@ -57,7 +57,7 @@ public class Main {
             System.out.println("Would you like to try the quiz again? Y or N");
             doAgain = keyboard.nextLine();
         }
-        //Play again do...while loop
+        //Play again do...while loops
         while(!doAgain.equalsIgnoreCase("n"));
     }
 }
